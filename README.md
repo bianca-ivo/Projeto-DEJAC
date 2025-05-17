@@ -45,7 +45,7 @@ Ao acessar a aplicação, é possível obter informações relacionadas ao ender
 </div>
 
 - Criar uma pasta para o projeto
-- Abrir o VSCODE, clicar em "Abrir Pasta" e localizar a pasta criada. Abrir um terminal e executar o comando: `git clone git@github.com:bianca-ivo/Projeto-DEJAC.git`
+- Abrir o VSCODE, clicar em "Abrir Pasta" e localizar a pasta criada. Abrir um terminal e executar o comando: `git clone https://github.com/bianca-ivo/Projeto-DEJAC.git`
 - Executar o comando `npm install`
 - Executar o comando `npm install firebase`
 - Executar o comando `npm install firebase-admin`
