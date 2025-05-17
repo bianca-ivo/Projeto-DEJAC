@@ -5,7 +5,7 @@ import cors from 'cors';
 import './firebase.js'; // apenas importa para garantir a inicialização, sem reinicializar
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8800;
 
 app.use(cors());
 app.use(express.json());
