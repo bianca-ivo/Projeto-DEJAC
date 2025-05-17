@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import pontoRoutes from './routes/ponto.js';
+
 // importação da inicialização do Firebase (apenas se necessário)
 import './firebase.js'; // apenas importa para garantir a inicialização, sem reinicializar
 
@@ -15,8 +15,6 @@ app.get('/', (req, res) => {
 });
 
 // Suas rotas
-app.use("/api/ponto", pontoRoutes);
-
 // Se quiser ativar rotas de usuários no futuro, é só descomentar:
 // import { addUserController, deleteUserController, getUsers, updateUserController } from './controllers/userController.js';
 // app.get('/api/users', getUsers);
