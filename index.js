@@ -15,6 +15,8 @@ app.get('/', (req, res) => {
 });
 
 // Suas rotas
+app.use("/api/ponto", pontoRoutes);
+
 // Se quiser ativar rotas de usuários no futuro, é só descomentar:
 // import { addUserController, deleteUserController, getUsers, updateUserController } from './controllers/userController.js';
 // app.get('/api/users', getUsers);
