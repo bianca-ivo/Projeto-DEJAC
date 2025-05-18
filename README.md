@@ -54,7 +54,9 @@ Ao acessar a aplicação, é possível obter informações relacionadas ao ender
 - Se tudo estiver funcionando corretamente, o back-end estará rodando na URL: [http://localhost:8800/](http://localhost:8800/) e apresentará a mensagem "Servidor está funcionando!"
 
 Com o funcionamento do backend, o próximo passo será executar o frontend:  
+- Abra um novo terminal e certifique-se de estar na pasta raiz (Projeto-DEJAC)
 - Executar o comando `cd frontend`
+- Executar o comando `npm install`
 - Exceutar o comando `npm start`
 
 **Equipe de desenvolvimento**
